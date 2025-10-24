@@ -18,7 +18,7 @@ To write and execute Assembly language Program for sorting of data using 8051 ke
 7.	Otherwise stop the program.
 
 **PROGRAM:**
-
+~~~
 ORG 0000H 
 
 MOV R7,#4
@@ -50,20 +50,20 @@ DOWN:DJNZ R6,LOOP
 DJNZ R7,LOOP1
 
 END
-
+~~~
 
 **OUTPUT:**
+
 
 **MEMORY WINDOW:**
 
 Before execution: D:0x40H:
-<BR>
-<BR>
-<BR>
+<img width="1919" height="1199" alt="image" src="https://github.com/user-attachments/assets/70248ef3-4d74-46d7-ab77-b6dbc4b574de" />
+
+
 After execution: D:0x40H:
-<BR>
-<BR>
-<BR>
+<img width="1918" height="1193" alt="image" src="https://github.com/user-attachments/assets/df65cd7e-20f3-4e05-8eb3-959067c08768" />
+
 
 
 **(ii)	Ascending order**
@@ -79,7 +79,7 @@ After execution: D:0x40H:
 7.	Otherwise stop the program.
 
 **PROGRAM:**
-
+~~~
 ORG 0000H 
 
 MOV R7,#4
@@ -111,22 +111,22 @@ DOWN:DJNZ R6,LOOP
 DJNZ R7,LOOP1
 
 END
-
+~~~
 **OUTPUT:**
 
 **MEMORY WINDOW:** 
 
 **Before execution:**
 D:0x40H:
-<BR>
-<BR>
-<BR>
-<BR>
+<img width="1920" height="1200" alt="ASC(in)_MPMC" src="https://github.com/user-attachments/assets/5f77b602-4185-46c0-9d86-bc7ba6f58cf6" />
+
+
+
 After execution:
 D:0x40H:
-<BR>
-<BR>
-<BR>
+<img width="1920" height="1200" alt="ASC(out)_MPMC" src="https://github.com/user-attachments/assets/d3ec0d57-c35f-4476-bb66-c0052950cc0d" />
+
+
 **Result:**
 
 Thus the sorting of given data was done using 8051 keil and shown the output.
